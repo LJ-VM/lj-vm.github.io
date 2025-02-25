@@ -1,0 +1,91 @@
+body {
+    background-color: #6aaff7; /* Old Color: #00807F */
+    color: White;
+    font-family: "Arial", serif;
+}
+
+a:link
+{
+    color:white; /* old: #FFFFFF */
+}
+
+a:visited
+{
+    color:azure; /* old: #a3abb5 */
+}
+
+a:hover 
+{
+    color:cornsilk; /* old: #ced6de */
+}
+
+hr {
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.ljvm-vms {
+    display: grid;
+}
+
+.ljvm-title {
+    display: flex;
+    align-items: center;
+}
+
+.ljvm-title a {
+    margin: 0 10px;
+}
+
+.ljvm-title h1 {
+    margin: 10px;
+}
+
+.ljvm-footer {
+    background-color: #4b4e52;
+    color: white;
+    position: fixed; 
+    left: 0;
+    bottom: 0; 
+    width: 100%; 
+    text-align: center; 
+    padding: 10px 0; 
+    margin-top: 20px; 
+}
+
+.ljvm-body {
+    flex: 1;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.ljvm-staffdir {
+    display: grid;
+    grid-template-columns: repeat(10, 200px);
+    column-gap: 10px;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.ljvm-staff {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 200px;
+    height: 225px;
+}
+
+.ljvm-staff img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.ljvm-staff .ljvm-staffrole {
+    margin-top: 10px;
+    font-size: 1rem;
+}
