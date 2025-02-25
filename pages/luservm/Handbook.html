@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>LuserVM Handbook - LJ-VM</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+  </head>
+  <body>
+    <div class="ljvm-title">
+      <h1>LJ-VM</h1> 
+      <a href="../../index.html">Home</a> 
+      <a href="../Rules.html">Rules</a> 
+      <a href="../VMs.html">VMs</a> 
+      <a href="../LuserVM.html">LuserVM</a>
+      <a href="../Staff.html">Staff</a>
+      <a href="../Contact.html">Contact Me</a> 
+    </div>
+    <div class="ljvm-body">
+      <center>
+        <h2>LuserVM Handbook</h2>
+        <p>This handbook will help you set up your own VM</p>
+      </center>
+      <h3>Requirements:</h3>
+      <p>A host system running a <b>good</b> linux distro (Debian, Arch, etc. UBUNTU SUCKS!!!!!!!!) or Windows 10+ (I use Windows 11 personally)</p>
+      <p>VMWare Version 15 or newer (I use version 17.5, Virtualbox is accepted but frowned upon. <b>NO QEMU/PARALELLS/HYPER-V.</b>)</p>
+      <p>A good amount of RAM and a good enough CPU(8+ GB, Intel Core i5/AMD Ryzen 5 or newer)</p>
+      <p>An ISO of Windows (Has to be Windows 7 or later (For Windows Server its Windows Server 2012 and up))</p>
+      <p>Decent Internet (In the US some decent plans are Verizon, T-Mobile, and AT&T. I use Verizon 5G Internet)</p>
+      <p>A Discord account</p>
+      <p>A good reputation in the LJ-VM community</p>
+      <br>
+      <p>If you have those things you may continue.</p>
+      <h3>Setting up your VM (VMWare)</h3>
+      <p>1. Press Ctrl+N to create a virtual machine</p>
+      <p>2. Choose "Custom (advanced)" and click next.</p>
+      <p>3. Set the hardware compatibility to the highest supported.</p>
+      <p>4. Click "I will install the operating system later." This bypasses VMWare's dumb Quick Install feature.</p>
+      <p>5. For the guest operating system choose "Microsoft Windows" and in the dropdown menu choose the version you are installing.</p>
+      <p>6. Name your virtual machine. This can be anything.</p>
+      <p>7. If you are doing Windows 7-10 or Windows Server 2012-2022 click BIOS. If you are doing Windows 11 or Windows Server 2025 choose UEFI.</p>
+      <p>8. Choose your processors. A good amount would be 4 processors with 2 cores in each.</p>
+      <p>9. Set your RAM. I usually go with 3GB (3072 MB) but anything up to 12GB would be a good amount.</p>
+      <p>10. Choose NAT as your network.</p>
+      <p>11. Whatever I/O Controller type that VMWare defaults to is probably the one you want to select.</p>
+      <p>12. Same thing here. Whichever hard drive type VMWare defaults to is most likely the one you want to use.</p>
+      <p>13. Select "Create a new virtual disk."</p>
+      <p>14. Your disk size should be 60-120 GB in size. I usually go with 75 GB.</p>
+      <p>15. Name your disk file whatever you want.</p>
+      <p>16. Finally, click "Finish" and wait for your VM to be created.</p>
+      <br>
+      <p>Good job for getting to this point, now you have to configure your VM.</p>
+      <h3>Configuring your VM</h3>
+      <p>The first thing you want to do is go to your VM Settings, select the disk, and insert the ISO file.</p>
+      <p>After doing that, you can boot up your VM.</p>
+      <p>Once the VM appears with the Windows install screen, continue installing Windows.</p>
+      <p>At some point after installing, it will ask you for customization settings, username, etc.</p>
+      <p>Username can be whatever you want, you can make it funny though</p>
+      <p>The password must be "1" for the vm (no quotes)</p>
+      <p>For activation you don't have to do that but IT IS recommended especially since you can easily find product keys online.</p>
+      <p>Once you get on the Windows desktop you need to do some things:</p>
+      <p>1. Install a decent browser (for the love of god no Microsoft Edge or any type of Opera please)</p>
+      <p>2. Install Anydesk, Rustdesk, and Teamviewer.</p>
+      <p>Once that is done you have to configure Anydesk, Rustdesk, and Teamviewer.</p>
+      <br>
+      <h3>Configuring the remote access programs</h3>
+      <p>For the remote access programs you need to set a password, and configure default unattended access settings.</p>
+      <p>A good password for one of them would be something like "[YourNameHere]-Vm[Number]-[RemoteToolsName]"</p>
+      <p>An example of a password thats configured properly would be something like John-Vm1-Rustdesk</p>
+      <p>Once you are done changing the password, configure access settings.</p>
+      <p>You need to make sure that <b>atleast</b> file transfers, remote restart, block user input, privacy mode, and clipboard access are disabled.</p>
+      <p><b>Important: YOU SHOULD USE A VPN. Good VPNs include ExpressVPN (my favorite), NordVPN, and Surfshark. If you don't use a VPN during VM operation you have a high chance of getting doxxed.</b></p>
+      <p><b>Also please note that YOU are in charge of moderating the VMs. If somebody breaks the rules, it is your job to get the VM under control.</b></p>
+      <p>Once you are done with that you can move on to the second-to-last section.</p>
+      <br>
+      <h3>Extra stuff</h3>
+      <p>To spice up your VM, you can add some extra stuff to it such as:</p>
+      <p>A cool wallpaper or theme</p>
+      <p>Some harmless PUPs (such as Systweak's Regclean Pro or Bit Driver Updater)</p>
+      <p>Nice programs/bloat (e.g. Notepad++, Visual Studio, etc.)</p>
+      <p>If its Windows 8.x then Classic Shell</p>
+      <p>If you want to you can antiforkie the VM</p>
+      <p>Some games</p>
+      <br>
+      <p>FINAL STEP! Congrats</p>
+      <h3>Sending your VM info</h3>
+      <p>The final thing you have to do before your VM is public is DM lj802921 on Discord with the following:</p>
+      <p>Your preferred name (for example if you said John then your VM's name on the website would be JohnVM1.)</p>
+      <p>Windows OS Type</p>
+      <p>Anydesk ID and Password</p>
+      <p>Rustdesk ID and Password</p>
+      <p>Teamviewer ID and Password</p>
+      <p>If its a Windows Server VM then you need to provide the FULL username by running "whoami" in the command prompt and then giving me the answer (ex: msi\ljbay)</p>
+      <img src="../../img/whoami.png" alt="whoami command being run">
+      <p>The time that your VM will run in EST (-5:00) format.</p>
+      <p>And finally, any additional notes for the VM along with a basic description of it. (ex: This is a simulated Windows 7 VM. Installed programs include Adobe Reader 9, and Quick Time Player among other things.)</p>
+      <br> 
+      <p>Congrats! You have successfully set up your very own LuserVM! Now go touch grass</p>
+      <br>
+      <p>Guide written by LJ9859 on 2-11-2025</p>
+    <div class="ljvm-footer">
+      <p>Owned by LJ9859 on GitHub. All copyright goes to their respective owners. For issues, you can <a href="pages/Contact.html">contact me</a> or open one on GitHub.</p>
+    </div>
+    </div>
+  </body>
+</html>
